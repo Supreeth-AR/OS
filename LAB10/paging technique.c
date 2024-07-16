@@ -29,8 +29,7 @@ int main() {
     do { 
         printf("\n\nEnter the logical address (i.e., page no & offset):"); 
         scanf("%d%d", &pno, &off); 
- 
-72 
+
  
         if (pno < 0 || pno >= n) { 
             printf("\nInvalid page number\n"); 
